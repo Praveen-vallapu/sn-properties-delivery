@@ -49,22 +49,22 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Buying Guide
+                  Renting
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Selling Guide
+                  Selling
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Market Trends
+                  Renovate
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Blog
+                  Maintenance
                 </a>
               </li>
             </ul>
