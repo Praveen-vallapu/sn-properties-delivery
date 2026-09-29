@@ -264,10 +264,10 @@ export default async function Home() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 bg-accent text-primary px-8 py-6 rounded-xl shadow-hover">
+              {/* <div className="absolute -bottom-6 -right-6 bg-accent text-primary px-8 py-6 rounded-xl shadow-hover">
                 <p className="text-4xl font-bold">15+</p>
                 <p className="text-sm font-semibold mt-1 opacity-80">Years of Excellence</p>
-              </div>
+              </div> */}
             </div>
             <div>
               <span className="section-label">About Us</span>
