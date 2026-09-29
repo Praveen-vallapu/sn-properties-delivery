@@ -10,11 +10,23 @@ export const metadata = {
   },
 };
 
-const stats = [
-  { value: '500+',  label: 'Properties Sold' },
-  { value: '1,000+', label: 'Happy Clients' },
-  { value: '£2B+',  label: 'Transaction Value' },
-  { value: '15+',   label: 'Years Experience' },
+const services = [
+  {
+    title: 'Renting',
+    description: 'Comprehensive rental solutions for tenants and landlords.',
+  },
+  {
+    title: 'Letting',
+    description: 'Expert letting services for residential and commercial spaces.',
+  },
+  {
+    title: 'Renovation',
+    description: 'Upgrade and refurbish your property to maximize value.',
+  },
+  {
+    title: 'Maintenance',
+    description: 'Keep your investment with proactive care and trusted support.',
+  },
 ];
 
 const values = [
@@ -91,14 +103,17 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ── STATS STRIP ───────────────────────────────────────── */}
-      <section className="bg-primary py-12">
+      {/* ── SERVICES STRIP ────────────────────────────────────── */}
+      <section className="bg-surface py-16">
         <div className="container-custom">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-            {stats.map((s) => (
-              <div key={s.label}>
-                <p className="text-4xl font-bold text-accent mb-1">{s.value}</p>
-                <p className="text-white/70 text-sm font-medium">{s.label}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+            {services.map((service) => (
+              <div
+                key={service.title}
+                className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm"
+              >
+                <h3 className="text-3xl font-bold text-primary mb-4">{service.title}</h3>
+                <p className="text-muted text-lg leading-relaxed">{service.description}</p>
               </div>
             ))}
           </div>
