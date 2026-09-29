@@ -280,7 +280,7 @@ export default async function Home() {
                 brings passion and professionalism to every transaction.
               </p>
               <p className="text-muted mb-10 leading-relaxed">
-                Whether you are buying, selling, or renting, we provide the guidance and support you need
+                Whether you are renting, letting, or renovate, we provide the guidance and support you need
                 to make informed decisions with confidence and clarity.
               </p>
               <div className="flex gap-4 flex-wrap">

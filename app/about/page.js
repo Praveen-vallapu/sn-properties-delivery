@@ -243,7 +243,7 @@ export default function AboutPage() {
             Let&apos;s Find Your Perfect Property
           </h2>
           <p className="text-white/65 text-lg mb-10 max-w-xl mx-auto">
-            Whether you&apos;re buying, selling, renting, or investing — our team is ready to guide you every step of the way.
+            Whether you&apos;re renting, letting, renovate, or investing — our team is ready to guide you every step of the way.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Link
