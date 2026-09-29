@@ -213,7 +213,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── TEAM ──────────────────────────────────────────────── */}
-      <section className="py-24 bg-surface">
+      {/* <section className="py-24 bg-surface">
         <div className="container-custom">
           <div className="text-center mb-14">
             <p className="section-label mb-3">The People Behind It</p>
@@ -238,7 +238,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ── CTA ───────────────────────────────────────────────── */}
       <section className="py-24 bg-primary">

@@ -90,7 +90,7 @@ export default function PropertyFilters({ filters }) {
 
         {/* Price range */}
         <div>
-          <p className="text-xs font-medium text-muted mb-1.5">Price Range ($)</p>
+          <p className="text-xs font-medium text-muted mb-1.5">Price Range</p>
           <div className="flex items-center gap-2">
             <input
               type="number"
