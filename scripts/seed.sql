@@ -145,7 +145,7 @@ INSERT INTO faqs (question, answer, order_index, active) VALUES
  'On average, buying a property takes 30 to 60 days from offer acceptance to close of escrow. The timeline depends on financing, inspections, and any contingencies in the contract. Our team will keep you informed at every stage.',
  1, true),
 ('Do you handle both sales and rentals?',
- 'Yes, we manage both sales and long-term rental listings. Whether you are buying your first home, investing in a rental property, or looking for a place to lease, our agents are experienced across all transaction types.',
+ 'Yes, we manage both sales and long-term rental listings. Whether you are buying your first home, maintenance in a rental property, or looking for a place to lease, our agents are experienced across all transaction types.',
  2, true),
 ('What documents do I need to start the process?',
  'For buyers: a mortgage pre-approval letter or proof of funds for cash buyers, government-issued ID, and a signed buyer agreement. For renters: ID, proof of income (last 2 pay stubs), and references. We will walk you through everything on our first call.',
