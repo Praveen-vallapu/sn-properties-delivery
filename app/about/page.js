@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'About Us — SN Properties',
-  description: 'Learn about SN Properties — our story, mission, and team. Over 15 years helping clients find their perfect property in the Bay Area.',
+  description: 'Learn about SN Properties — our story, mission, and team. Over 15 years helping clients find their perfect property.',
   openGraph: {
     title: 'About SN Properties',
     description: 'Over years of expertise helping clients buy, sell, and rent premium properties.',
@@ -56,7 +56,7 @@ const team = [
   {
     name: 'Sarah Johnson',
     role: 'Founder & CEO',
-    bio: 'With 15+ years in Bay Area real estate, Sarah founded SN Properties to set a new standard for client-first service.',
+    bio: 'Sarah founded SN Properties to set a new standard for client-first service.',
     img: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400',
   },
   {
@@ -135,11 +135,6 @@ export default function AboutPage() {
                   one of life&apos;s great experiences, not a stressful ordeal. We set out to build a team
                   that combines deep local knowledge with genuine care for every client.
                 </p>
-                <p>
-                  Today, we manage hundreds of listings across San Francisco and the wider Bay Area,
-                  from sleek SoMa studios to oceanfront villas in Half Moon Bay. Whatever your next
-                  chapter looks like, we&apos;ll help you write it.
-                </p>
               </div>
               <div className="flex gap-4 mt-8">
                 <Link href="/properties" className="btn-primary px-7 py-3 inline-flex">
@@ -158,17 +153,17 @@ export default function AboutPage() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-accent text-primary px-7 py-5 rounded-xl shadow-lg">
+              {/* <div className="absolute -bottom-6 -left-6 bg-accent text-primary px-7 py-5 rounded-xl shadow-lg">
                 <p className="text-3xl font-bold">15+</p>
                 <p className="text-sm font-semibold opacity-80">Years of Excellence</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </section>
 
       {/* ── MISSION & VISION ──────────────────────────────────── */}
-      <section className="py-20 bg-surface">
+      {/* <section className="py-20 bg-surface">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-xl p-8 border-l-4 border-accent shadow-sm">
@@ -191,7 +186,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ── CORE VALUES ───────────────────────────────────────── */}
       <section className="py-24 bg-background">

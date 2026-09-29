@@ -7,7 +7,7 @@ export default function OrganizationSchema({ phone, email, address }) {
     name: 'SN Properties',
     url: BASE,
     logo: `${BASE}/logo.png`,
-    description: 'Premium real estate platform for buying and renting properties in the San Francisco Bay Area.',
+    description: 'Premium real estate platform for buying and renting properties.',
     ...(phone   && { telephone: phone }),
     ...(email   && { email }),
     ...(address && {

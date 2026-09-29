@@ -60,7 +60,7 @@ export default function FaqForm({ faq, action }) {
         register={register}
         required
         rows={5}
-        placeholder="We cover the entire San Francisco Bay Area including..."
+        placeholder="We cover the entire Areas including..."
         error={errors.answer}
       />
 
