@@ -54,7 +54,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Selling
+                  Letting
                 </a>
               </li>
               <li>
