@@ -10,7 +10,7 @@ import { formatPrice } from '@/lib/utils';
 
 export const metadata = {
   title: 'SN Properties — Premium Real Estate Platform',
-  description: 'Discover premium properties for sale, rent and lenting. Expert guidance, transparent pricing, and exceptional service.',
+  description: 'Discover premium properties for sale, rent and letting. Expert guidance, transparent pricing, and exceptional service.',
 };
 
 // ── Data helpers ──────────────────────────────────────────────────────────
@@ -130,7 +130,7 @@ export default async function Home() {
             Find Your Dream<br />Property
           </h1>
           <p className="text-white/60 text-lg max-w-2xl mx-auto mb-12">
-            Discover premium properties for sale, rent and lenting.
+            Discover premium properties for sale, rent and letting.
             Expert guidance and unmatched service, every step of the way.
           </p>
           <HeroSearch />

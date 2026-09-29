@@ -10,7 +10,7 @@ export const metadata = {
     default: 'SN Properties — Premium Real Estate Platform',
     template: '%s | SN Properties',
   },
-  description: 'Discover premium properties for sale and rent and lenting. Expert guidance, transparent pricing, and exceptional service.',
+  description: 'Discover premium properties for sale and rent and letting. Expert guidance, transparent pricing, and exceptional service.',
   keywords: ['real estate', 'properties for sale', 'properties for rent', 'luxury homes', 'apartments', 'villas'],
   authors: [{ name: 'SN Properties' }],
   openGraph: {
@@ -24,7 +24,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'SN Properties — Premium Real Estate Platform',
-    description: 'Discover premium properties for sale, rent and lenting. Expert guidance and exceptional service.',
+    description: 'Discover premium properties for sale, rent and letting. Expert guidance and exceptional service.',
   },
   robots: {
     index: true,
