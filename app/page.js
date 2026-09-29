@@ -10,7 +10,7 @@ import { formatPrice } from '@/lib/utils';
 
 export const metadata = {
   title: 'SN Properties — Premium Real Estate Platform',
-  description: 'Discover premium properties for sale and rent. Expert guidance, transparent pricing, and exceptional service.',
+  description: 'Discover premium properties for sale, rent and lenting. Expert guidance, transparent pricing, and exceptional service.',
 };
 
 // ── Data helpers ──────────────────────────────────────────────────────────
@@ -130,7 +130,7 @@ export default async function Home() {
             Find Your Dream<br />Property
           </h1>
           <p className="text-white/60 text-lg max-w-2xl mx-auto mb-12">
-            Discover premium properties for sale and rent across the San Francisco Bay Area.
+            Discover premium properties for sale, rent and lenting.
             Expert guidance and unmatched service, every step of the way.
           </p>
           <HeroSearch />
@@ -276,7 +276,7 @@ export default async function Home() {
               </h2>
               <p className="text-muted mb-5 leading-relaxed">
                 SN Properties is a premium real estate platform dedicated to making property transactions
-                seamless, transparent, and accessible. With over 15 years of combined expertise, our team
+                seamless, transparent, and accessible. With over years of combined expertise, our team
                 brings passion and professionalism to every transaction.
               </p>
               <p className="text-muted mb-10 leading-relaxed">

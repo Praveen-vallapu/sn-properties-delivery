@@ -5,7 +5,7 @@ export const metadata = {
   description: 'Learn about SN Properties — our story, mission, and team. Over 15 years helping clients find their perfect property in the Bay Area.',
   openGraph: {
     title: 'About SN Properties',
-    description: 'Over 15 years of expertise helping clients buy, sell, and rent premium properties.',
+    description: 'Over years of expertise helping clients buy, sell, and rent premium properties.',
     type: 'website',
   },
 };
@@ -97,7 +97,7 @@ export default function AboutPage() {
             Redefining Real Estate,<br />One Home at a Time
           </h1>
           <p className="text-white/75 text-lg leading-relaxed">
-            For over 15 years, SN Properties has helped Bay Area families, investors,
+            SN Properties has helped Bay Area families, investors,
             and businesses find exactly where they belong.
           </p>
         </div>
